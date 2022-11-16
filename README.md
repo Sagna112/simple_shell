@@ -1,7 +1,7 @@
-# SIMPLE SHELL 
+SIMPLE SHELL 
 
 ## Description
-The aim of this project made at Holberton School is to gain knowledge about the background work of a Shell when there is an user input in the prompt. 
+The aim of this project made at Alx School is to gain knowledge about the background work of a Shell when there is an user input in the prompt. 
 
 The following is the way that our shell is compiled: 
 ```bash
@@ -26,23 +26,6 @@ In the other hand, our shell can run on interactive mode and non-interactive mod
 - Handle when the user input is a Ctrl+C.
 - Execute in interactive and non-interactive modes.
 ## FILES
-
-| NAME             | BRIEF DESCRIPTION                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| [AUTHORS](https://github.com/MatiasMtz/simple_shell/blob/main/AUTHORS) | List of all every individual that contributed content to the repository. |
-| [_getenv.c](https://github.com/MatiasMtz/simple_shell/blob/main/_getenv.c) | Gets the desired envionment variable and tokenize it. |
-| [builtinfunctions.c](https://github.com/MatiasMtz/simple_shell/blob/main/builtin_functions.c) | Built-in functions implemented to the Shell |
-| [characters.c](https://github.com/MatiasMtz/simple_shell/blob/main/characters.c) | Checks for special characters such as "\n, \t" and exchanges them into spaces. |
-| [check_execute.c](https://github.com/MatiasMtz/simple_shell/blob/main/check_execute.c) | Looks for the absolute path of the programs and checks if they exist |
-| [execute.c](https://github.com/MatiasMtz/simple_shell/blob/main/execute.c) | Creates children processes and executes the commands. |
-| [ctrl_handler.c](https://github.com/MatiasMtz/simple_shell/blob/main/ctrl_handler.c) | Handle the Ctrl+C signal |
-| [main.h](https://github.com/MatiasMtz/simple_shell/blob/main/main.h) | Header where the function prototypes are located |
-| [man_1_simple_shell](https://github.com/MatiasMtz/simple_shell/blob/main/man_1_simple_shell) | Shell manual |
-| [simple_shell.c](https://github.com/MatiasMtz/simple_shell/blob/main/simple_shell.c) | Main function of the project, mainly handle interactive and non interactive modes. |
-| [string_functions.c](https://github.com/MatiasMtz/simple_shell/blob/main/string_functions.c) | String modifiers functions made in previous Holberton projects. |
-| [tokenizer.c](https://github.com/MatiasMtz/simple_shell/blob/main/tokenizer.c) | breaks a string into a sequence of zero or more nonempty tokens |
-
-
 ## How to use
 
 Clone our directory to your working space:
@@ -64,7 +47,6 @@ Or in non interactive mode (as an example):
 ```
 
 ## Tasks requested in this project:
-
 |              | BRIEF DESCRIPTION                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | 0. README, man, AUTHORS | Write a README, a man and an AUTHORS file. |
@@ -94,4 +76,3 @@ Or in non interactive mode (as an example):
 ## Authors
 - Samuel Obayemi -[Github](https://github.com/theodes1) / [Linkedin](linkedin.com/in/samuel-obayemi-631025153/)
 - Ridwanullahi Badmus -[Github](https://github.com/https://github.com/Sagna112) / [Linkedin](https://www.linkedin.com/in/badmus-ridwanullahi-540012202/)
-
